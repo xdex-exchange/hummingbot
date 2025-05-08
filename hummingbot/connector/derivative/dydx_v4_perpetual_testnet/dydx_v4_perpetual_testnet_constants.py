@@ -24,14 +24,14 @@ MAX_ID_BIT_COUNT = 31
 
 # data_source grpc
 DYDX_V4_AERIAL_GRPC_OR_REST_PREFIX = "grpc"
-DYDX_V4_AERIAL_CONFIG_URL = "dydx-testnet-rpc.polkachu.com:443"
-DYDX_V4_QUERY_AERIAL_CONFIG_URL = "dydx-testnet-rpc.polkachu.com:443"
+DYDX_V4_AERIAL_CONFIG_URL = "test-dydx-grpc.kingnodes.com:443"
+DYDX_V4_QUERY_AERIAL_CONFIG_URL = "test-dydx-grpc.kingnodes.com:443"
 CHAIN_ID = "dydx-testnet-4"
 FEE_DENOMINATION = "afet"
 TX_FEE = 0
 TX_GAS_LIMIT = 0
 
-DYDX_V4_VALIDATOR_REST_BASE_URL = "https://dydx-testnet-rpc.polkachu.com:443"
+DYDX_V4_VALIDATOR_REST_BASE_URL = "https://test-dydx-rpc.kingnodes.com:443"
 
 DYDX_V4_INDEXER_REST_BASE_URL = "https://indexer.v4testnet.dydx.exchange"
 
