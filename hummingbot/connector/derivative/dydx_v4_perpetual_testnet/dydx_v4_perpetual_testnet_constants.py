@@ -24,20 +24,20 @@ MAX_ID_BIT_COUNT = 31
 
 # data_source grpc
 DYDX_V4_AERIAL_GRPC_OR_REST_PREFIX = "grpc"
-DYDX_V4_AERIAL_CONFIG_URL = "test-dydx-grpc.kingnodes.com:443"
-DYDX_V4_QUERY_AERIAL_CONFIG_URL = "test-dydx-grpc.kingnodes.com:443"
-CHAIN_ID = "dydx-testnet-4"
+DYDX_V4_AERIAL_CONFIG_URL = "grpc.ab.meme:443"
+DYDX_V4_QUERY_AERIAL_CONFIG_URL = "grpc.ab.meme:443"
+CHAIN_ID = "abmeme-v1"
 FEE_DENOMINATION = "afet"
 TX_FEE = 0
 TX_GAS_LIMIT = 0
 
-DYDX_V4_VALIDATOR_REST_BASE_URL = "https://test-dydx-rpc.kingnodes.com:443"
+DYDX_V4_VALIDATOR_REST_BASE_URL = "https://validator.ab.meme:443"
 
-DYDX_V4_INDEXER_REST_BASE_URL = "https://indexer.v4testnet.dydx.exchange"
+DYDX_V4_INDEXER_REST_BASE_URL = "https://indexer.ab.meme"
 
 DYDX_V4_REST_URL = "{}/{}".format(DYDX_V4_INDEXER_REST_BASE_URL, API_VERSION)
 
-DYDX_V4_WS_URL = "wss://indexer.v4testnet.dydx.exchange/{}/ws".format(API_VERSION)
+DYDX_V4_WS_URL = "wss://ws.ab.meme/{}/ws".format(API_VERSION)
 
 # Public REST Endpoints
 
